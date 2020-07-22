@@ -78,9 +78,7 @@
 			<key>EnableWriteUnprotector</key>
 			<true/>
 			<key>ForceExitBootServices</key>
-			<false/>
-			<key>ProtectCsmRegion</key>
-			<false/>
+			<false/>			
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProtectUefiServices</key>
@@ -88,9 +86,7 @@
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>SetupVirtualMap</key>
-			<true/>
-			<key>ShrinkMemoryMap</key>
-			<false/>
+			<true/>			
 			<key>SignalAppleOS</key>
 			<false/>
 		</dict>
