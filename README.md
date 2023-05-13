@@ -58,7 +58,7 @@ and choose the USB disk to mount the EFI:
 
 ### 3: Drag the current EFI folder from this repo to the above EFI folder or build your old EFI folder base on following #3.1
 The result should be:
-![](images/EFI%20in%20EFI.png)
+![](Images/EFI%202.png)
 
 ### 3.1 Build your own EFI based on newer version of OpenCore and Kexts 
 #### 3.1.1 Download the OpenCore from
@@ -75,6 +75,9 @@ Delete all except OpenRuntime.efi, ApfsDriverLoader.efi, VBoxHfs.efi
 #### 3.1.5 Copy the necessary files to Disk EFI => EFI => OC => Kexts folders (.kexts are drivers)
 The kext files to downloads
 - `AppleACL.kext`: https://github.com/acidanthera/AppleALC/releases
+- `BlueToolFixup.kext` (Required for macOS 12 or newer, as in macOS 12 Apple has changed parts of the Bluetooth stack from kernel-space to user-space) (Requires Lilu 1.5.4+) https://github.com/acidanthera/BrcmPatchRAM/releases (unzipped -> the same folder with Brcm)
+- `BrcmFirmwareData.kext` -> same folder as above Brcm https://github.com/acidanthera/BrcmPatchRAM/releases
+- `BrcmPatchRAM3.kext` -> same folder as above Brcm https://github.com/acidanthera/BrcmPatchRAM/releases
 - `IntelMausi.kext` https://github.com/acidanthera/IntelMausi/releases
 - `Lilu.kext` (Core) https://github.com/acidanthera/Lilu/releases
 - `SMCProcessor.kext` https://github.com/acidanthera/VirtualSMC/releases
