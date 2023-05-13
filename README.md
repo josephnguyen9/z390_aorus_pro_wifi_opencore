@@ -14,6 +14,8 @@ Based on configurations from: https://github.com/blacklizard/gigabyte-z390-aorus
 - Apple Magic Mouse
 - Apple Magic Keyboard
 
+![](Images/monterey%2012.3.1.png)
+
 ## Not working
 - Sleep
 - Microphone of Apple EarPods 3.5mm Headphone Plug
